@@ -14,7 +14,7 @@
     <name>wells-fargo-task-2</name>
     <description>wells-fargo-task-2</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>19</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -31,8 +31,6 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
-    
-    
 
     <build>
         <plugins>
@@ -40,20 +38,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-    			<groupId>org.apache.maven.plugins</groupId>
-    			<artifactId>maven-compiler-plugin</artifactId>
-    			<version>3.10.1</version>
-    			<configuration>
-        			<source>${java.version}</source>
-        			<target>${java.version}</target>
-    			</configuration>
-			</plugin>
-
         </plugins>
-        
     </build>
-    
-    
 
 </project>
